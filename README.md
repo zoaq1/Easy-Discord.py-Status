@@ -1,6 +1,7 @@
 # Easy-Discord.py-Status
 Easy way to have Creative and Unique Statuses for your Discord.py bot.
 
+# Basic
 ### Idle
 ```
 await client.change_presence(status=discord.Status.idle)
@@ -9,7 +10,7 @@ await client.change_presence(status=discord.Status.idle)
 ```
 await client.change_presence(status=discord.Status.dnd)
 ```
-
+# Advanced
 ### Server Count
 ```
 await client.change_presence(activity=discord.Activity(type=discord.ActivityType.playing, name=f'Online in {len(client.guilds)} Servers'))
