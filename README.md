@@ -29,6 +29,24 @@ await client.change_presence(activity=discord.Activity(type=discord.ActivityType
 ```
 ![image](https://user-images.githubusercontent.com/93454464/152407474-62a6e159-6c3e-4859-824d-937cc412f922.png)
 
+### Playing a Game
+```
+await client.change_presence(activity=discord.Activity(type=discord.ActivityType.playing, name='Visual Studio'))
+```
+![image](https://user-images.githubusercontent.com/93454464/152408660-73364c52-9c8b-41c8-8cf8-36c7dc4b140e.png)
+
+### Competing in a Game
+```
+await client.change_presence(activity=discord.Activity(type=discord.ActivityType.competing, name='idk what this is'))
+```
+![image](https://user-images.githubusercontent.com/93454464/152408810-6ae6a805-e2e5-44e1-b10f-5693d75294f5.png)
+
+### Watching a Video
+```
+await client.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name='you.'))
+```
+![image](https://user-images.githubusercontent.com/93454464/152409020-7f1e7863-5a68-49cf-a6d8-966712d622ba.png)
+
 # Issues:
 
 * Please open and Issue for Help.
