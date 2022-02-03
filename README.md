@@ -51,7 +51,7 @@ await client.change_presence(status=discord.Status.do_not_disturb, activity=disc
 # Extreme
 ### Changing Status
 ```
-status = cycle(["m!help", "anything", "add as many as u want", ""])
+status = cycle(["m!help", "anything", "add as many as u want", "u can even change the time between changes"])
 
 @tasks.loop(seconds=5)
 async def changeStatus():
