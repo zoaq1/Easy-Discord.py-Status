@@ -48,6 +48,16 @@ await client.change_presence(activity=discord.Activity(type=discord.ActivityType
 ```
 ![image](https://user-images.githubusercontent.com/93454464/152409020-7f1e7863-5a68-49cf-a6d8-966712d622ba.png)
 
+# Extreme
+### Changing Status
+```
+status = cycle(["m!help", "anything", "add as many as u want", ""])
+
+@tasks.loop(seconds=5)
+async def changeStatus():
+    await client.change_presence(status=discord.Status.do_not_disturb, activity=discord.Activity(type=discord.ActivityType.playing, name=next(status)))
+```
+
 # Issues:
 
 * Please open and Issue for Help.
