@@ -11,4 +11,6 @@ await client.change_presence(activity=discord.Activity(type=discord.ActivityType
 ```
 await client.change_presence(activity=discord.Streaming(name="Coding", url="https://github.com/zoaq1"))
 ```
-![image](https://user-images.githubusercontent.com/93454464/152407193-db507717-4ce3-4fbd-9950-98b4a151547e.png)
+![image](https://user-images.githubusercontent.com/93454464/152407265-92321e30-97e2-4104-bfa4-7705098fc54f.png)
+![image](https://user-images.githubusercontent.com/93454464/152407269-7c32de17-6d9a-4238-b200-2eb9cda9de4c.png)
+
