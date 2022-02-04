@@ -49,7 +49,7 @@ await client.change_presence(sctivity=discord.Activity(type=discord.ActivityType
 ![image](https://user-images.githubusercontent.com/93454464/152409020-7f1e7863-5a68-49cf-a6d8-966712d622ba.png)
 
 # Extreme
-### Changing Status
+### Changing Status (NOT WORKING)
 ```
 from itertools import cycle
 from discord.ext import tasks
